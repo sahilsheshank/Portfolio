@@ -55,16 +55,18 @@ const Hero = () => {
                                 </motion.button>
 
                                 <motion.button
-                                    onClick={() => window.open("./Sahil-Sheshank-SDE-resume.pdf", "_blank")}
+                                    onClick={() => window.open("https://drive.google.com/file/d/1RGUfdP2-ws465e4phqHHlUdXdtNeuT2p/view?usp=sharing", "_blank")}
                                     variants={container(0.3)}
                                     initial="hidden" animate="visible"
                                     whileHover={{ scale: 1.1, backgroundColor: "rgba(255, 255, 255, 0.1)" }}
                                     transition={{ duration: 0.1 }}
                                     whileTap={{ scale: 0.9 }}
-                                    className="mx-2 px-6 py-3 text-lg font-semibold rounded-full border flex  gap-2 items-center border-neutral-600 text-white backdrop-blur-md transition-all duration-300"
-                                >   My Resume
+                                    className="mx-2 px-6 py-3 text-lg font-semibold rounded-full border flex gap-2 items-center border-neutral-600 text-white backdrop-blur-md transition-all duration-300"
+                                >
+                                    My Resume
                                     <BsDownload />
                                 </motion.button>
+
                             </div>
                         </div>
                         <motion.p variants={container(0.6)}
@@ -84,7 +86,9 @@ const Hero = () => {
                             className='rounded-full w-70 h-[22rem] mt-12 ring-4 ring-white shadow-lg' src={propic2} alt="" />
                     </div>
                 </div>
+
             </div>
+
         </div>
     );
 };
