@@ -14,15 +14,23 @@ I also have experience with Git and GitHub for version control, ensuring smooth 
 
 I am currently seeking full-time opportunities as a Full-Stack Developer or Software Developer, where I can contribute my skills, learn new technologies, and grow in a challenging and innovative setting.`;
 
-export const EXPERIENCES =
-{
-  year: "June 2024 - August 2024",
-  role: "Frontend developer intern",
-  company: "Koders Corporation Pvt. Ltd.",
-  description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Contributed in building and automated subtitle generation website.
-    Worked collaboratively with other teammates to design and develop various effects and overlays using CSS.Tested and integrated RESTful APIs into the frontend of an active E-commerce website and increased the usability and efficiency of the website. Collaborated with stakeholders to define project requirements and timelines.`,
-  technologies: ["Javascript", "React.js", "Next.js", "MongoDB", "Redux", "REST Api"],
-};
+export const EXPERIENCES = [
+  {
+    year: "May 2025 – Present",
+    role: "Software Engineer",
+    company: "Tech Superior Consulting, Gurugram",
+    description: `Collaborated with a 6-member Agile team to design and develop a new system suite, contributing to key frontend modules and seamless UI/UX workflows. Integrated REST APIs and resolved critical bugs, resulting in a 40% reduction in user-reported issues and faster feature rollout. Optimized component rendering and reduced load time by refactoring legacy code and implementing efficient state management techniques.`,
+    technologies: ["Next.js", "JavaScript", "Redux", "Zod", "ShadCN", "REST APIs"],
+  },
+  {
+    year: "June 2024 - August 2024",
+    role: "Frontend Developer Intern",
+    company: "Koders Corporation Pvt. Ltd.",
+    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Contributed in building and automated subtitle generation website. Worked collaboratively with other teammates to design and develop various effects and overlays using CSS. Tested and integrated RESTful APIs into the frontend of an active E-commerce website and increased the usability and efficiency of the website. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["JavaScript", "React.js", "Next.js", "MongoDB", "Redux", "REST API"],
+  },
+];
+
 
 
 
@@ -72,7 +80,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Suddhowala, Chakrata Road, Dehradun, Uttarakhand",
+  address: "Sector 38, Gurugram, Haryana, India",
   phoneNo: "+91 7563968215",
   email: "sahil.sheshank@gmail.com",
 };

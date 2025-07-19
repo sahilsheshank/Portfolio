@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { HERO_CONTENT } from "../constants";
-import propic from "../assets/propic.jpg"
+import propic2 from "../assets/propic2.jpg"
 import { motion } from 'framer-motion';
 import { BsDownload } from "react-icons/bs";
 import Contact from './Contact';
@@ -55,7 +55,7 @@ const Hero = () => {
                                 </motion.button>
 
                                 <motion.button
-                                    onClick={() => window.open("./Sahil-Resume.pdf", "_blank")}
+                                    onClick={() => window.open("./Sahil-Sheshank-SDE-resume.pdf", "_blank")}
                                     variants={container(0.3)}
                                     initial="hidden" animate="visible"
                                     whileHover={{ scale: 1.1, backgroundColor: "rgba(255, 255, 255, 0.1)" }}
@@ -81,12 +81,10 @@ const Hero = () => {
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1 }}
 
-                            className='rounded-full h-80 mt-12 ring-4 ring-white shadow-lg'  src={propic} alt="" />
+                            className='rounded-full w-70 h-[22rem] mt-12 ring-4 ring-white shadow-lg' src={propic2} alt="" />
                     </div>
                 </div>
-
             </div>
-
         </div>
     );
 };
