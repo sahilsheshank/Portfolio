@@ -37,6 +37,18 @@ export const EXPERIENCES = [
     ],
     technologies: ["Next.js", "PostgreSQL", "Tailwind CSS", "ShadCN", "Node.js", "REST APIs"],
   },
+  {
+    year: "Jun 2024 – Aug 2024",
+    role: "Frontend Developer Intern",
+    company: "Koders Corporation Pvt. Ltd.",
+    location: "Remote",
+    bullets: [
+      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js.",
+      "Contributed to building an automated subtitle generation website and designed various CSS effects and overlays.",
+      "Tested and integrated RESTful APIs into an active e-commerce frontend, improving usability and efficiency.",
+    ],
+    technologies: ["React.js", "Next.js", "JavaScript", "MongoDB", "Redux", "REST APIs"],
+  },
 ];
 
 export const PROJECTS = [
