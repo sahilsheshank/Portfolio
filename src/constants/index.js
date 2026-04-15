@@ -4,83 +4,87 @@ import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
 import project5 from "../assets/projects/project5.png";
 
-export const HERO_CONTENT = `I am a passionate full-stack developer focused on building scalable and efficient web applications. I thrive on solving complex problems and creating innovative solutions that enhance user experiences and drive business growth.`;
+export const HERO_CONTENT = `Software Engineer at Centralogic, building scalable full-stack applications with React, Next.js, Node.js, and GraphQL. Passionate about clean architecture, performance optimization, and delivering real-world impact.`;
 
-export const ABOUT_TEXT = `I am a final-year BTech Computer Science student with a strong passion for full-stack development and software engineering. I thrive on solving complex problems and building efficient, scalable applications.
+export const ABOUT_TEXT = `I'm a Software Engineer at Centralogic, Pune, where I lead a squad of 4 engineers delivering critical modules for enterprise clients — shipped on time, with zero production defects. I specialize in full-stack development across React, Next.js, Node.js, and GraphQL, with production experience in both PostgreSQL and MongoDB.
 
-My technical expertise includes JavaScript and C++, with hands-on experience in React.js, Node.js, Express.js, and Tailwind CSS for developing dynamic and user-friendly web applications. I am proficient in MongoDB and MySQL for database management and have a solid understanding of data structures, algorithms, and object-oriented programming (OOP).
+Previously at Tech Superior Consulting, I built enterprise-grade frontend modules as part of an Agile team, cutting user-reported issues by 40% through targeted API integration and state management work.
 
-I also have experience with Git and GitHub for version control, ensuring smooth collaboration in team projects. Beyond technical skills, I excel in problem-solving, adaptability, and teamwork, making me a valuable asset in any development environment.
-
-I am currently seeking full-time opportunities as a Full-Stack Developer or Software Developer, where I can contribute my skills, learn new technologies, and grow in a challenging and innovative setting.`;
+I hold a BTech in Computer Science (CGPA 8.3) from Dev Bhoomi Uttarakhand University (2025). I care deeply about code quality, security (SonarQube, Checkmarx), and shipping software that actually makes a difference.`;
 
 export const EXPERIENCES = [
   {
-    year: "May 2025 – Present",
+    year: "Sep 2025 – Present",
     role: "Software Engineer",
-    company: "Tech Superior Consulting, Gurugram",
-    description: `Collaborated with a 6-member Agile team to design and develop a new system suite, contributing to key frontend modules and seamless UI/UX workflows. Integrated REST APIs and resolved critical bugs, resulting in a 40% reduction in user-reported issues and faster feature rollout. Optimized component rendering and reduced load time by refactoring legacy code and implementing efficient state management techniques.`,
-    technologies: ["Next.js", "JavaScript", "Redux", "Zod", "ShadCN", "REST APIs"],
+    company: "Centralogic",
+    location: "Pune, Maharashtra",
+    bullets: [
+      "Led a squad of 4 engineers to deliver a critical module for Monotype Fonts — on-time with zero critical production defects.",
+      "Designed and built 10+ REST & GraphQL APIs, owning backend architecture and integrations, increasing data efficiency by 30%.",
+      "Raised code quality through SonarQube & Checkmarx, achieving 85%+ test coverage and cutting vulnerabilities by 40%.",
+    ],
+    technologies: ["React", "GraphQL", "REST APIs", "SonarQube", "Checkmarx", "Unit Testing"],
   },
   {
-    year: "June 2024 - August 2024",
-    role: "Frontend Developer Intern",
-    company: "Koders Corporation Pvt. Ltd.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Contributed in building and automated subtitle generation website. Worked collaboratively with other teammates to design and develop various effects and overlays using CSS. Tested and integrated RESTful APIs into the frontend of an active E-commerce website and increased the usability and efficiency of the website. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["JavaScript", "React.js", "Next.js", "MongoDB", "Redux", "REST API"],
+    year: "May 2025 – Aug 2025",
+    role: "Software Engineer",
+    company: "Tech Superior Consulting",
+    location: "Gurugram, Haryana",
+    bullets: [
+      "Collaborated with a 6-member Agile team to build frontend modules for an enterprise-grade steel operations portal.",
+      "Integrated REST APIs and resolved critical bugs — achieving a 40% reduction in user-reported issues.",
+      "Refactored legacy code and implemented efficient state management, improving rendering and load times.",
+    ],
+    technologies: ["Next.js", "PostgreSQL", "Tailwind CSS", "ShadCN", "Node.js", "REST APIs"],
   },
 ];
 
-
-
-
 export const PROJECTS = [
   {
-    title: "Calorie estimation and tracking app ",
+    title: "Mechanic On The Way",
+    subtitle: "Real-Time Roadside Assistance",
+    github: "https://github.com/sahilsheshank",
+    image: project1,
+    description:
+      "Uber-like roadside assistance platform with a multi-role system (Customer, Mechanic, Admin), live job assignment, dynamic pricing, and real-time location tracking via Socket.io.",
+    technologies: ["Next.js", "Node.js", "MongoDB", "Socket.io", "Clerk", "Express.js", "ShadCN"],
+  },
+  {
+    title: "Calorie Estimation & Tracking",
     github: "https://github.com/sahilsheshank/Food_Recognition_webApp",
     image: project4,
     description:
-      "Built a user-centric web application enabling seamless registration, authentication, and daily calorie tracking with real-time progress insights. Integrated personalized calorie calculations and a robust food database, allowing users to log and analyze nutritional data effortlessly. ",
-    technologies: ["React.js", "Redux", "Tailwind CSS", "Express.js", "Context Api", "Rest Api", "MongoDB"],
+      "Fitness web app with authentication, daily calorie tracking, real-time progress insights, personalized calorie calculations, and a comprehensive food database.",
+    technologies: ["React.js", "MongoDB", "Express.js", "Node.js", "Tailwind CSS", "Context API"],
   },
-
   {
     title: "AI Content Generator",
     github: "https://github.com/sahilsheshank/Ai-content-generator",
     image: project2,
     description:
-      "Developed a fully responsive and authenticated content generation platform powered by the Gemini API,which includes features like code generation, bug fixing, grammar refinement, blog title suggestions, plagiarism-free text rewriting, code explanation, and optimized YouTube SEO titles. ",
-    technologies: ["HTML", "Tailwind CSS", "Next.js", "Clerk"],
+      "Responsive content generation platform powered by the Gemini API — supports code generation, bug fixing, grammar refinement, plagiarism-free rewriting, and YouTube SEO optimization.",
+    technologies: ["Next.js", "Gemini API", "Clerk", "Tailwind CSS", "Node.js"],
   },
   {
-    title: "Social Media Networking Platform",
+    title: "Social Media Platform",
     github: "https://github.com/sahilsheshank/social-media",
     image: project3,
     description:
-      "Developed a feature-rich social media platform with user authentication, posting, following,liking and commenting functionality.",
-    technologies: ["Tailwind CSS", "React.js", "MongoDB", "Express.js", "RESTful API", "Node.js"],
+      "Feature-rich social media platform with user authentication, posting, following, liking and commenting functionality built with a full MERN stack.",
+    technologies: ["React.js", "MongoDB", "Express.js", "Node.js", "REST API", "Tailwind CSS"],
   },
   {
-    title: "Crypto currency tracking website",
+    title: "Crypto Currency Tracker",
     github: "https://github.com/sahilsheshank/Crypto_currency_webApp",
     image: project5,
     description:
-      "Developed a real-time cryptocurrency tracking website using ReactJS, Redux Toolkit, AntD, and Tailwind CSS, with data fetching from APIs.Implemented user authentication and authorization with Firebase. ",
-    technologies: ["React.js", "Tailwind CSS", "Firebase",],
+      "Real-time cryptocurrency tracking website with live API data, Redux Toolkit state management, and Firebase authentication.",
+    technologies: ["React.js", "Redux Toolkit", "Firebase", "Tailwind CSS"],
   },
-  {
-    title: "E-Commerce Website",
-    github: "https://github.com/sahilsheshank/Ecommerce_webApp/tree/main/ecommerce",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing,product filtering, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-
 ];
 
 export const CONTACT = {
-  address: "Sector 38, Gurugram, Haryana, India",
+  address: "Pune, Maharashtra, India",
   phoneNo: "+91 7563968215",
   email: "sahil.sheshank@gmail.com",
 };

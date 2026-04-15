@@ -2,26 +2,26 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb, SiJavascript, SiCplusplus, SiMysql, SiExpress } from 'react-icons/si'
+import { SiMongodb, SiJavascript, SiCplusplus, SiMysql, SiExpress, SiTypescript, SiGraphql } from 'react-icons/si'
 import { FaNodeJs, FaCss3Alt } from 'react-icons/fa'
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
 
 const techStack = [
-    { icon: <RiReactjsLine className='text-7xl text-cyan-400' />, name: "ReactJS", duration: 2 },
+    { icon: <RiReactjsLine className='text-7xl text-cyan-400' />, name: "React.js", duration: 2 },
     { icon: <TbBrandNextjs className='text-7xl' />, name: "Next.js", duration: 2.5 },
-    { icon: <SiMongodb className='text-7xl text-green-500' />, name: "MongoDB", duration: 3 },
-    { icon: <FaNodeJs className='text-7xl text-green-500' />, name: "Node.js", duration: 2.2 },
-    { icon: <BiLogoPostgresql className='text-7xl text-cyan-400' />, name: "PostgreSQL", duration: 2.8 },
+    { icon: <SiTypescript className='text-7xl text-blue-400' />, name: "TypeScript", duration: 2.4 },
     { icon: <SiJavascript className='text-7xl text-yellow-400' />, name: "JavaScript", duration: 3.2 },
-    { icon: <SiCplusplus className='text-7xl text-yellow-300' />, name: "C++", duration: 2.7 },
-    { icon: <FaCss3Alt className='text-7xl text-sky-700' />, name: "CSS3", duration: 3.1 },
-    { icon: <SiMysql className='text-7xl text-sky-700' />, name: "MySQL", duration: 2.3 },
+    { icon: <FaNodeJs className='text-7xl text-green-500' />, name: "Node.js", duration: 2.2 },
     { icon: <SiExpress className='text-7xl text-gray-400' />, name: "Express.js", duration: 2.6 },
+    { icon: <SiGraphql className='text-7xl text-pink-500' />, name: "GraphQL", duration: 2.9 },
+    { icon: <SiMongodb className='text-7xl text-green-500' />, name: "MongoDB", duration: 3 },
+    { icon: <BiLogoPostgresql className='text-7xl text-cyan-400' />, name: "PostgreSQL", duration: 2.8 },
+    { icon: <SiMysql className='text-7xl text-sky-700' />, name: "MySQL", duration: 2.3 },
     { icon: <RiTailwindCssFill className='text-7xl text-sky-600' />, name: "Tailwind CSS", duration: 3 },
-    { icon: <SiRedux  className='text-7xl text-purple-500' />, name: "Redux", duration: 3.3 },
-
+    { icon: <SiRedux className='text-7xl text-purple-500' />, name: "Redux", duration: 3.3 },
+    { icon: <SiCplusplus className='text-7xl text-blue-300' />, name: "C++", duration: 2.7 },
 ]
 
 // Bounce Effect for Different Durations
