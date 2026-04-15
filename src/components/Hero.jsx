@@ -55,7 +55,7 @@ const Hero = () => {
                                 </motion.button>
 
                                 <motion.button
-                                    onClick={() => window.open("https://drive.google.com/file/d/1RGUfdP2-ws465e4phqHHlUdXdtNeuT2p/view?usp=sharing", "_blank")}
+                                    onClick={() => window.open("https://drive.google.com/file/d/1cO_3jelbuxyxAhgQ4X-9WWkWsWqLuzGc/view?usp=sharing", "_blank")}
                                     variants={container(0.3)}
                                     initial="hidden" animate="visible"
                                     whileHover={{ scale: 1.1, backgroundColor: "rgba(255, 255, 255, 0.1)" }}
