@@ -64,6 +64,7 @@ export const PROJECTS = [
   {
     title: "Calorie Estimation & Tracking",
     github: "https://github.com/sahilsheshank/Food_Recognition_webApp",
+    liveUrl: "https://food-recognition-web-app.vercel.app/",
     image: project4,
     description:
       "Fitness web app with authentication, daily calorie tracking, real-time progress insights, personalized calorie calculations, and a comprehensive food database.",
