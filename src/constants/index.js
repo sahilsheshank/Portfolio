@@ -73,6 +73,7 @@ export const PROJECTS = [
   {
     title: "AI Content Generator",
     github: "https://github.com/sahilsheshank/Ai-content-generator",
+    liveUrl: "https://ai-content-generator-5.onrender.com",
     image: project2,
     description:
       "Responsive content generation platform powered by the Gemini API — supports code generation, bug fixing, grammar refinement, plagiarism-free rewriting, and YouTube SEO optimization.",
