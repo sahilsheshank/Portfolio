@@ -3,10 +3,10 @@ import { ABOUT_TEXT } from '../constants'
 import { motion } from 'framer-motion'
 
 const stats = [
-    { value: "2+", label: "Years Experience" },
+    { value: "1+", label: "Years Experience" },
     { value: "10+", label: "Projects Built" },
     { value: "85%+", label: "Test Coverage" },
-    { value: "40%", label: "Bug Reduction" },
+    { value: "40%", label: "Fewer Vulnerabilities" },
 ]
 
 const About = () => {

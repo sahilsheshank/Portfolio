@@ -2,8 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb, SiJavascript, SiCplusplus, SiMysql, SiExpress, SiTypescript, SiGraphql } from 'react-icons/si'
-import { FaNodeJs, FaCss3Alt } from 'react-icons/fa'
+import { SiMongodb, SiJavascript, SiCplusplus, SiExpress, SiTypescript, SiGraphql, SiDocker, SiGithubactions } from 'react-icons/si'
+import { FaNodeJs, FaCss3Alt, FaAws, FaLinux } from 'react-icons/fa'
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiRedux } from "react-icons/si";
@@ -18,10 +18,13 @@ const techStack = [
     { icon: <SiGraphql className='text-7xl text-pink-500' />, name: "GraphQL", duration: 2.9 },
     { icon: <SiMongodb className='text-7xl text-green-500' />, name: "MongoDB", duration: 3 },
     { icon: <BiLogoPostgresql className='text-7xl text-cyan-400' />, name: "PostgreSQL", duration: 2.8 },
-    { icon: <SiMysql className='text-7xl text-sky-700' />, name: "MySQL", duration: 2.3 },
     { icon: <RiTailwindCssFill className='text-7xl text-sky-600' />, name: "Tailwind CSS", duration: 3 },
     { icon: <SiRedux className='text-7xl text-purple-500' />, name: "Redux", duration: 3.3 },
     { icon: <SiCplusplus className='text-7xl text-blue-300' />, name: "C++", duration: 2.7 },
+    { icon: <SiDocker className='text-7xl text-sky-500' />, name: "Docker", duration: 2.3 },
+    { icon: <FaAws className='text-7xl text-orange-400' />, name: "AWS", duration: 2.9 },
+    { icon: <SiGithubactions className='text-7xl text-blue-500' />, name: "GitHub Actions", duration: 2.5 },
+    { icon: <FaLinux className='text-7xl text-yellow-200' />, name: "Linux", duration: 3.1 },
 ]
 
 // Bounce Effect for Different Durations
